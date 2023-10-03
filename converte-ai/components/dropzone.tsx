@@ -215,6 +215,7 @@ export default function Dropzone() {
       setIsReady(false);
       setIsConverting(false);
     } else checkIsReady();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [actions]);
   useEffect(() => {
     load();
@@ -387,7 +388,7 @@ export default function Dropzone() {
                   <ImSpinner3 />
                 </span>
               ) : (
-                <span>Convert Now</span>
+                <span>Converter Agora</span>
               )}
             </Button>
           )}
@@ -406,8 +407,8 @@ export default function Dropzone() {
         handleExitHover();
         toast({
           variant: "destructive",
-          title: "Error uploading your file(s)",
-          description: "Allowed Files: Audio, Video and Images.",
+          title: "Erro no upload do seu arquivo(s)",
+          description: "Arquivos permitidos: áudio, vídeo e imagens.",
           duration: 5000,
         });
       }}
@@ -415,8 +416,8 @@ export default function Dropzone() {
         handleExitHover();
         toast({
           variant: "destructive",
-          title: "Error uploading your file(s)",
-          description: "Allowed Files: Audio, Video and Images.",
+          title: "Erro no upload do seu arquivo(s)",
+          description: "Arquivos permitidos: áudio, vídeo e imagens.",
           duration: 5000,
         });
       }}
@@ -434,7 +435,7 @@ export default function Dropzone() {
                   <LuFileSymlink />
                 </div>
                 <h3 className="text-center font-medium text-2xl">
-                  Yes, right there
+                Sim, aqui mesmo
                 </h3>
               </>
             ) : (
