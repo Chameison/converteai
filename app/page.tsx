@@ -11,8 +11,8 @@ export default function Home() {
         </h1>
         <p className="text-gray-400 text-md md:text-lg text-center md:px-24 xl:px-44 2xl:px-52">
           Com essa ferramente você pode converter quantos arquivos quiser para
-          os mais diversos formatos possíveis, Transforme imagens, audio, e
-          videos, sem restrições. Comece agora mesmo!
+          qualquer formato, Transforme imagens, audio, e
+          videos. Comece agora mesmo!
         </p>
       </div>
       <div className="mx-10">
