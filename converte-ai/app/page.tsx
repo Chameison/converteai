@@ -1,12 +1,11 @@
 import Dropzone from "@/components/dropzone";
-import Image from "next/image";
 
 export default function Home() {
   return (
     <div className="space-y-16 pb-8 mt-10">
       <div className="space-y-6">
         <h1 className="text-3xl md:text-4xl font-medium text-center">
-          Converta{" "}
+          Converta
           <span className="text-rose-400 font-bold">Gratuitamente</span>{" "}
           infinitos arquivos!
         </h1>
